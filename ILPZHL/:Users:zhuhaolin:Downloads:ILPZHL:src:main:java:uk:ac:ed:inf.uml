@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/zhuhaolin/Downloads/ILPZHL/src/main/java/uk/ac/ed/inf</OriginalElement>
+  <nodes>
+    <node x="933.0876524390246" y="1377.0">uk.ac.ed.inf.Menus</node>
+    <node x="1264.2566903794043" y="406.0000000000002">uk.ac.ed.inf.Restaurant.Food</node>
+    <node x="862.456470189702" y="630.0000000000002">uk.ac.ed.inf.HttpConnection</node>
+    <node x="1593.0796070460708" y="1224.5">uk.ac.ed.inf.ThreeWordCoordinate.Coordinate</node>
+    <node x="107.16666666666674" y="2065.786059807319">uk.ac.ed.inf.Drone</node>
+    <node x="835.706470189702" y="1758.0">uk.ac.ed.inf.Order</node>
+    <node x="835.706470189702" y="912.5000000000002">uk.ac.ed.inf.JsonParser</node>
+    <node x="1649.2462737127373" y="1023.5000000000001">uk.ac.ed.inf.ThreeWordCoordinate.Square.Southwest</node>
+    <node x="1502.50942441511" y="1868.5">uk.ac.ed.inf.JDBCDao</node>
+    <node x="1236.7566903794043" y="641.5000000000002">uk.ac.ed.inf.Restaurant</node>
+    <node x="391.89397018970203" y="1913.0">uk.ac.ed.inf.GeoJsonWriter</node>
+    <node x="162.16666666666674" y="1322.0">uk.ac.ed.inf.LongLat</node>
+    <node x="1760.0796070460708" y="1236.0">uk.ac.ed.inf.ThreeWordCoordinate.Square</node>
+    <node x="775.518970189702" y="2308.786059807319">uk.ac.ed.inf.App</node>
+    <node x="1676.2566903794038" y="1427.5">uk.ac.ed.inf.ThreeWordCoordinate</node>
+    <node x="12.166666666666742" y="1015.0">uk.ac.ed.inf.Map</node>
+    <node x="1816.2462737127373" y="1023.5000000000001">uk.ac.ed.inf.ThreeWordCoordinate.Square.Northwest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="uk.ac.ed.inf.App" target="uk.ac.ed.inf.GeoJsonWriter" relationship="CREATE">
+      <point x="-134.5" y="-60.5" />
+      <point x="910.018970189702" y="2480.786059807319" />
+      <point x="389.841886856369" y="2480.786059807319" />
+      <point x="389.841886856369" y="2470.786059807319" />
+      <point x="504.6709010840111" y="2470.786059807319" />
+      <point x="504.6709010840111" y="2425.5" />
+      <point x="579.393970189702" y="2425.5" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Menus" target="uk.ac.ed.inf.Menus" relationship="CREATE">
+      <point x="-142.875" y="116.0" />
+      <point x="980.7126524390246" y="1629.0" />
+      <point x="913.0876524390246" y="1629.0" />
+      <point x="913.0876524390246" y="1493.0" />
+      <point x="-190.5" y="-0.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Menus" target="uk.ac.ed.inf.Restaurant" relationship="DEPENDENCY">
+      <point x="95.25" y="-116.0" />
+      <point x="1218.8376524390246" y="1300.0" />
+      <point x="1562.87745596206" y="1300.0" />
+      <point x="1562.87745596206" y="1290.0" />
+      <point x="1424.4797594850952" y="1290.0" />
+      <point x="1424.4797594850952" y="860.5000000000002" />
+      <point x="1419.2297594850952" y="860.5000000000002" />
+      <point x="1419.2297594850952" y="850.5000000000002" />
+      <point x="1357.5066903794043" y="850.5000000000002" />
+      <point x="40.25" y="71.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.App" target="uk.ac.ed.inf.JDBCDao" relationship="CREATE">
+      <point x="-134.5" y="-60.5" />
+      <point x="910.018970189702" y="2480.786059807319" />
+      <point x="389.841886856369" y="2480.786059807319" />
+      <point x="389.841886856369" y="2470.786059807319" />
+      <point x="1730.0781066644327" y="2470.786059807319" />
+      <point x="1730.0781066644327" y="2075.5" />
+      <point x="1807.50942441511" y="2075.5" />
+      <point x="122.0" y="82.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.JDBCDao" target="uk.ac.ed.inf.Menus" relationship="DEPENDENCY">
+      <point x="-91.5" y="-82.5" />
+      <point x="1594.00942441511" y="2206.0" />
+      <point x="1283.206470189702" y="2206.0" />
+      <point x="1283.206470189702" y="1716.0" />
+      <point x="1157.0876524390246" y="1716.0" />
+      <point x="1157.0876524390246" y="1706.0" />
+      <point x="1171.2126524390246" y="1706.0" />
+      <point x="47.625" y="116.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.App" target="uk.ac.ed.inf.JsonParser" relationship="CREATE">
+      <point x="-134.5" y="-60.5" />
+      <point x="910.018970189702" y="2480.786059807319" />
+      <point x="389.841886856369" y="2480.786059807319" />
+      <point x="389.841886856369" y="2470.786059807319" />
+      <point x="1401.1837737127373" y="2470.786059807319" />
+      <point x="1401.1837737127373" y="1186.5000000000002" />
+      <point x="1172.93995596206" y="1186.5000000000002" />
+      <point x="1172.93995596206" y="1176.5000000000002" />
+      <point x="1165.706470189702" y="1176.5000000000002" />
+      <point x="132.0" y="116.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Restaurant" target="uk.ac.ed.inf.Restaurant.Food" relationship="DEPENDENCY">
+      <point x="53.66666666666674" y="-71.5" />
+      <point x="1370.923357046071" y="576.5000000000002" />
+      <point x="1408.2566903794043" y="576.5000000000002" />
+      <point x="1408.2566903794043" y="566.5000000000002" />
+      <point x="1361.7566903794043" y="566.5000000000002" />
+      <point x="39.0" y="49.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.ThreeWordCoordinate.Square.Northwest" target="uk.ac.ed.inf.ThreeWordCoordinate.Square" relationship="INNER_CLASS">
+      <point x="49.0" y="60.5" />
+      <point x="1938.7462737127373" y="1164.5" />
+      <point x="1835.7462737127373" y="1164.5" />
+      <point x="1835.7462737127373" y="1194.5" />
+      <point x="1911.7462737127375" y="1194.5" />
+      <point x="60.66666666666674" y="-49.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.JsonParser" target="uk.ac.ed.inf.Restaurant" relationship="TO_MANY">
+      <point x="-99.0" y="-116.0" />
+      <point x="934.706470189702" y="890.5000000000002" />
+      <point x="1028.706470189702" y="890.5000000000002" />
+      <point x="1028.706470189702" y="850.5000000000002" />
+      <point x="1277.0066903794043" y="850.5000000000002" />
+      <point x="-40.25" y="71.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.ThreeWordCoordinate" target="uk.ac.ed.inf.ThreeWordCoordinate.Square" relationship="DEPENDENCY">
+      <point x="75.0" y="-115.5" />
+      <point x="1863.7566903794038" y="1396.5" />
+      <point x="1780.5734247967482" y="1396.5" />
+      <point x="1780.5734247967482" y="1366.5" />
+      <point x="1911.7462737127375" y="1366.5" />
+      <point x="60.66666666666674" y="49.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.JsonParser" target="uk.ac.ed.inf.Restaurant" relationship="DEPENDENCY">
+      <point x="99.0" y="-116.0" />
+      <point x="1132.706470189702" y="890.5000000000002" />
+      <point x="1192.3191903794043" y="890.5000000000002" />
+      <point x="1192.3191903794043" y="870.5000000000002" />
+      <point x="1419.2297594850952" y="870.5000000000002" />
+      <point x="1419.2297594850952" y="850.5000000000002" />
+      <point x="1357.5066903794043" y="850.5000000000002" />
+      <point x="40.25" y="71.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.App" target="uk.ac.ed.inf.Menus" relationship="CREATE">
+      <point x="-134.5" y="-60.5" />
+      <point x="910.018970189702" y="2480.786059807319" />
+      <point x="389.841886856369" y="2480.786059807319" />
+      <point x="389.841886856369" y="2470.786059807319" />
+      <point x="1503.706470189702" y="2470.786059807319" />
+      <point x="1503.706470189702" y="1706.0" />
+      <point x="1266.4626524390246" y="1706.0" />
+      <point x="142.875" y="116.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.HttpConnection" target="uk.ac.ed.inf.HttpConnection" relationship="DEPENDENCY">
+      <point x="-93.75" y="83.0" />
+      <point x="893.706470189702" y="816.0000000000002" />
+      <point x="842.456470189702" y="816.0000000000002" />
+      <point x="842.456470189702" y="713.0000000000002" />
+      <point x="-125.0" y="-0.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Drone" target="uk.ac.ed.inf.LongLat" relationship="TO_ONE">
+      <point x="0.0" y="-182.0" />
+      <point x="276.16666666666674" y="2043.786059807319" />
+      <point x="306.6709010840111" y="2043.786059807319" />
+      <point x="306.6709010840111" y="1706.0" />
+      <point x="410.29166666666674" y="1706.0" />
+      <point x="49.625" y="171.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Drone" target="uk.ac.ed.inf.Map" relationship="TO_ONE">
+      <point x="0.0" y="-182.0" />
+      <point x="276.16666666666674" y="2043.786059807319" />
+      <point x="306.6709010840111" y="2043.786059807319" />
+      <point x="306.6709010840111" y="2033.786059807319" />
+      <point x="29.368817750677977" y="2033.786059807319" />
+      <point x="29.368817750677977" y="1300.0" />
+      <point x="131.66666666666674" y="1300.0" />
+      <point x="0.0" y="126.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Restaurant" target="uk.ac.ed.inf.Restaurant.Food" relationship="TO_MANY">
+      <point x="-53.66666666666674" y="-71.5" />
+      <point x="1263.5900237127375" y="576.5000000000002" />
+      <point x="1283.7566903794043" y="576.5000000000002" />
+      <point x="-39.0" y="49.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Menus" target="uk.ac.ed.inf.JsonParser" relationship="CREATE">
+      <point x="-95.25" y="-116.0" />
+      <point x="1028.3376524390246" y="1300.0" />
+      <point x="1016.4441903794043" y="1300.0" />
+      <point x="1016.4441903794043" y="1186.5000000000002" />
+      <point x="1172.93995596206" y="1186.5000000000002" />
+      <point x="1172.93995596206" y="1176.5000000000002" />
+      <point x="1165.706470189702" y="1176.5000000000002" />
+      <point x="132.0" y="116.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.ThreeWordCoordinate.Square" target="uk.ac.ed.inf.ThreeWordCoordinate.Square.Northwest" relationship="TO_ONE">
+      <point x="-60.66666666666674" y="-49.0" />
+      <point x="1790.412940379404" y="1204.5" />
+      <point x="1815.7462737127373" y="1204.5" />
+      <point x="1815.7462737127373" y="1184.5" />
+      <point x="1840.7462737127373" y="1184.5" />
+      <point x="-49.0" y="60.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Drone" target="uk.ac.ed.inf.Drone" relationship="DEPENDENCY">
+      <point x="-84.5" y="182.0" />
+      <point x="191.66666666666674" y="2449.786059807319" />
+      <point x="87.16666666666674" y="2449.786059807319" />
+      <point x="87.16666666666674" y="2247.786059807319" />
+      <point x="-169.0" y="-0.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.JsonParser" target="uk.ac.ed.inf.ThreeWordCoordinate" relationship="DEPENDENCY">
+      <point x="99.0" y="-116.0" />
+      <point x="1132.706470189702" y="890.5000000000002" />
+      <point x="1192.3191903794043" y="890.5000000000002" />
+      <point x="1192.3191903794043" y="1710.5" />
+      <point x="1788.7566903794038" y="1710.5" />
+      <point x="0.0" y="115.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Menus" target="uk.ac.ed.inf.Order" relationship="DEPENDENCY">
+      <point x="47.625" y="116.0" />
+      <point x="1171.2126524390246" y="1706.0" />
+      <point x="1157.0876524390246" y="1706.0" />
+      <point x="1157.0876524390246" y="1726.0" />
+      <point x="1097.2126524390246" y="1726.0" />
+      <point x="1097.2126524390246" y="1736.0" />
+      <point x="1163.456470189702" y="1736.0" />
+      <point x="109.25" y="-193.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Order" target="uk.ac.ed.inf.Menus" relationship="DEPENDENCY">
+      <point x="109.25" y="-193.0" />
+      <point x="1163.456470189702" y="1736.0" />
+      <point x="1097.2126524390246" y="1736.0" />
+      <point x="1097.2126524390246" y="1726.0" />
+      <point x="1157.0876524390246" y="1726.0" />
+      <point x="1157.0876524390246" y="1706.0" />
+      <point x="1171.2126524390246" y="1706.0" />
+      <point x="47.625" y="116.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Map" target="uk.ac.ed.inf.JsonParser" relationship="TO_ONE">
+      <point x="-59.75" y="-126.5" />
+      <point x="71.91666666666674" y="1166.5000000000002" />
+      <point x="901.706470189702" y="1166.5000000000002" />
+      <point x="-132.0" y="116.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.ThreeWordCoordinate" target="uk.ac.ed.inf.ThreeWordCoordinate.Square" relationship="TO_ONE">
+      <point x="0.0" y="-115.5" />
+      <point x="1788.7566903794038" y="1406.5" />
+      <point x="1770.5734247967482" y="1406.5" />
+      <point x="1770.5734247967482" y="1376.5" />
+      <point x="1851.0796070460708" y="1376.5" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Order" target="uk.ac.ed.inf.Order" relationship="DEPENDENCY">
+      <point x="-163.875" y="193.0" />
+      <point x="890.331470189702" y="2164.0" />
+      <point x="815.706470189702" y="2164.0" />
+      <point x="815.706470189702" y="1951.0" />
+      <point x="-218.5" y="-0.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Drone" target="uk.ac.ed.inf.LongLat" relationship="CREATE">
+      <point x="-112.66666666666669" y="-182.0" />
+      <point x="163.50000000000006" y="2043.786059807319" />
+      <point x="181.59375000000045" y="2043.786059807319" />
+      <point x="181.59375000000045" y="1736.0" />
+      <point x="218.0649559620599" y="1736.0" />
+      <point x="218.0649559620599" y="1726.0" />
+      <point x="311.04166666666674" y="1726.0" />
+      <point x="-49.625" y="171.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.ThreeWordCoordinate.Square" target="uk.ac.ed.inf.ThreeWordCoordinate.Square.Southwest" relationship="DEPENDENCY">
+      <point x="0.0" y="-49.0" />
+      <point x="1851.0796070460708" y="1204.5" />
+      <point x="1825.7462737127373" y="1204.5" />
+      <point x="1825.7462737127373" y="1174.5" />
+      <point x="1722.7462737127373" y="1174.5" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Drone" target="uk.ac.ed.inf.JDBCDao" relationship="TO_ONE">
+      <point x="0.0" y="-182.0" />
+      <point x="276.16666666666674" y="2043.786059807319" />
+      <point x="306.6709010840111" y="2043.786059807319" />
+      <point x="306.6709010840111" y="2065.5" />
+      <point x="1563.50942441511" y="2065.5" />
+      <point x="-122.0" y="82.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.ThreeWordCoordinate" target="uk.ac.ed.inf.ThreeWordCoordinate.Coordinate" relationship="DEPENDENCY">
+      <point x="75.0" y="-115.5" />
+      <point x="1863.7566903794038" y="1396.5" />
+      <point x="1780.5734247967482" y="1396.5" />
+      <point x="1780.5734247967482" y="1366.5" />
+      <point x="1715.5796070460708" y="1366.5" />
+      <point x="49.0" y="60.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.JDBCDao" target="uk.ac.ed.inf.LongLat" relationship="DEPENDENCY">
+      <point x="-91.5" y="-82.5" />
+      <point x="1594.00942441511" y="2206.0" />
+      <point x="1283.206470189702" y="2206.0" />
+      <point x="1283.206470189702" y="2196.0" />
+      <point x="777.393970189702" y="2196.0" />
+      <point x="777.393970189702" y="1736.0" />
+      <point x="744.6543868563689" y="1736.0" />
+      <point x="744.6543868563689" y="1696.0" />
+      <point x="509.54166666666674" y="1696.0" />
+      <point x="148.875" y="171.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.App" target="uk.ac.ed.inf.Map" relationship="CREATE">
+      <point x="-134.5" y="-60.5" />
+      <point x="910.018970189702" y="2480.786059807319" />
+      <point x="389.841886856369" y="2480.786059807319" />
+      <point x="389.841886856369" y="2470.786059807319" />
+      <point x="-32.32291666666629" y="2470.786059807319" />
+      <point x="-32.32291666666629" y="1300.0" />
+      <point x="52.000000000000114" y="1300.0" />
+      <point x="-79.66666666666663" y="126.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.App" target="uk.ac.ed.inf.ThreeWordCoordinate" relationship="DEPENDENCY">
+      <point x="134.5" y="-60.5" />
+      <point x="1179.018970189702" y="2287.786059807319" />
+      <point x="1616.1666666666667" y="2287.786059807319" />
+      <point x="1616.1666666666667" y="2852.0" />
+      <point x="1788.7566903794038" y="2852.0" />
+      <point x="0.0" y="115.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.App" target="uk.ac.ed.inf.Drone" relationship="CREATE">
+      <point x="-134.5" y="-60.5" />
+      <point x="910.018970189702" y="2480.786059807319" />
+      <point x="389.841886856369" y="2480.786059807319" />
+      <point x="389.841886856369" y="2470.786059807319" />
+      <point x="360.66666666666674" y="2470.786059807319" />
+      <point x="84.5" y="182.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.App" target="uk.ac.ed.inf.Order" relationship="DEPENDENCY">
+      <point x="134.5" y="-60.5" />
+      <point x="1179.018970189702" y="2287.786059807319" />
+      <point x="1616.1666666666667" y="2287.786059807319" />
+      <point x="1616.1666666666667" y="2267.786059807319" />
+      <point x="1492.706470189702" y="2267.786059807319" />
+      <point x="1492.706470189702" y="2176.0" />
+      <point x="1218.081470189702" y="2176.0" />
+      <point x="163.875" y="193.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Order" target="uk.ac.ed.inf.LongLat" relationship="DEPENDENCY">
+      <point x="109.25" y="-193.0" />
+      <point x="1163.456470189702" y="1736.0" />
+      <point x="1097.2126524390246" y="1736.0" />
+      <point x="1097.2126524390246" y="1706.0" />
+      <point x="744.6543868563689" y="1706.0" />
+      <point x="744.6543868563689" y="1696.0" />
+      <point x="509.54166666666674" y="1696.0" />
+      <point x="148.875" y="171.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.JsonParser" target="uk.ac.ed.inf.HttpConnection" relationship="DEPENDENCY">
+      <point x="99.0" y="-116.0" />
+      <point x="1132.706470189702" y="890.5000000000002" />
+      <point x="1192.3191903794043" y="890.5000000000002" />
+      <point x="1192.3191903794043" y="860.5000000000002" />
+      <point x="1081.206470189702" y="860.5000000000002" />
+      <point x="93.75" y="83.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.ThreeWordCoordinate.Square" target="uk.ac.ed.inf.ThreeWordCoordinate" relationship="INNER_CLASS">
+      <point x="-60.66666666666674" y="49.0" />
+      <point x="1790.412940379404" y="1386.5" />
+      <point x="1724.5734247967482" y="1386.5" />
+      <point x="1724.5734247967482" y="1406.5" />
+      <point x="1713.7566903794038" y="1406.5" />
+      <point x="-75.0" y="-115.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.ThreeWordCoordinate.Square.Southwest" target="uk.ac.ed.inf.ThreeWordCoordinate.Square" relationship="INNER_CLASS">
+      <point x="49.0" y="60.5" />
+      <point x="1771.7462737127373" y="1164.5" />
+      <point x="1835.7462737127373" y="1164.5" />
+      <point x="1835.7462737127373" y="1194.5" />
+      <point x="1911.7462737127375" y="1194.5" />
+      <point x="60.66666666666674" y="-49.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Drone" target="uk.ac.ed.inf.Order" relationship="TO_MANY">
+      <point x="0.0" y="-182.0" />
+      <point x="276.16666666666674" y="2043.786059807319" />
+      <point x="306.6709010840111" y="2043.786059807319" />
+      <point x="306.6709010840111" y="2033.786059807319" />
+      <point x="966.0649559620599" y="2033.786059807319" />
+      <point x="966.0649559620599" y="2206.0" />
+      <point x="999.581470189702" y="2206.0" />
+      <point x="-54.625" y="193.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Menus" target="uk.ac.ed.inf.HttpConnection" relationship="CREATE">
+      <point x="-95.25" y="-116.0" />
+      <point x="1028.3376524390246" y="1300.0" />
+      <point x="825.206470189702" y="1300.0" />
+      <point x="825.206470189702" y="890.5000000000002" />
+      <point x="467.54166666666674" y="890.5000000000002" />
+      <point x="467.54166666666674" y="880.5000000000002" />
+      <point x="956.206470189702" y="880.5000000000002" />
+      <point x="-31.25" y="83.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.ThreeWordCoordinate.Coordinate" target="uk.ac.ed.inf.ThreeWordCoordinate" relationship="INNER_CLASS">
+      <point x="-49.0" y="60.5" />
+      <point x="1617.5796070460708" y="1386.5" />
+      <point x="1724.5734247967482" y="1386.5" />
+      <point x="1724.5734247967482" y="1406.5" />
+      <point x="1713.7566903794038" y="1406.5" />
+      <point x="-75.0" y="-115.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.App" target="uk.ac.ed.inf.App" relationship="DEPENDENCY">
+      <point x="0.0" y="60.5" />
+      <point x="1044.518970189702" y="2449.786059807319" />
+      <point x="755.518970189702" y="2449.786059807319" />
+      <point x="755.518970189702" y="2369.286059807319" />
+      <point x="-269.0" y="-0.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.App" target="uk.ac.ed.inf.HttpConnection" relationship="CREATE">
+      <point x="-134.5" y="-60.5" />
+      <point x="910.018970189702" y="2480.786059807319" />
+      <point x="389.841886856369" y="2480.786059807319" />
+      <point x="389.841886856369" y="2470.786059807319" />
+      <point x="-73.05640243902417" y="2470.786059807319" />
+      <point x="-73.05640243902417" y="697.0" />
+      <point x="467.54166666666674" y="697.0" />
+      <point x="467.54166666666674" y="880.5000000000002" />
+      <point x="956.206470189702" y="880.5000000000002" />
+      <point x="-31.25" y="83.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Drone" target="uk.ac.ed.inf.Map" relationship="DEPENDENCY">
+      <point x="112.66666666666663" y="-182.0" />
+      <point x="388.83333333333337" y="2075.5" />
+      <point x="1651.742910187468" y="2075.5" />
+      <point x="1651.742910187468" y="2055.5" />
+      <point x="788.393970189702" y="2055.5" />
+      <point x="788.393970189702" y="1300.0" />
+      <point x="555.4626524390246" y="1300.0" />
+      <point x="555.4626524390246" y="1290.0" />
+      <point x="211.33333333333348" y="1290.0" />
+      <point x="79.66666666666674" y="126.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.LongLat" target="uk.ac.ed.inf.Map" relationship="DEPENDENCY">
+      <point x="0.0" y="-171.0" />
+      <point x="360.66666666666674" y="1300.0" />
+      <point x="555.4626524390246" y="1300.0" />
+      <point x="555.4626524390246" y="1290.0" />
+      <point x="211.33333333333348" y="1290.0" />
+      <point x="79.66666666666674" y="126.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Restaurant.Food" target="uk.ac.ed.inf.Restaurant" relationship="INNER_CLASS">
+      <point x="0.0" y="49.0" />
+      <point x="1322.7566903794043" y="576.5000000000002" />
+      <point x="1317.2566903794043" y="576.5000000000002" />
+      <point x="0.0" y="-71.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.JDBCDao" target="uk.ac.ed.inf.Order" relationship="CREATE">
+      <point x="91.5" y="-82.5" />
+      <point x="1777.00942441511" y="2186.0" />
+      <point x="1108.831470189702" y="2186.0" />
+      <point x="54.625" y="193.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Drone" target="uk.ac.ed.inf.LongLat" relationship="TO_MANY">
+      <point x="0.0" y="-182.0" />
+      <point x="276.16666666666674" y="2043.786059807319" />
+      <point x="306.6709010840111" y="2043.786059807319" />
+      <point x="306.6709010840111" y="1706.0" />
+      <point x="410.29166666666674" y="1706.0" />
+      <point x="49.625" y="171.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.GeoJsonWriter" target="uk.ac.ed.inf.LongLat" relationship="DEPENDENCY">
+      <point x="0.0" y="-38.0" />
+      <point x="579.393970189702" y="1736.0" />
+      <point x="744.6543868563689" y="1736.0" />
+      <point x="744.6543868563689" y="1696.0" />
+      <point x="509.54166666666674" y="1696.0" />
+      <point x="148.875" y="171.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.ThreeWordCoordinate" target="uk.ac.ed.inf.ThreeWordCoordinate.Coordinate" relationship="TO_ONE">
+      <point x="0.0" y="-115.5" />
+      <point x="1788.7566903794038" y="1406.5" />
+      <point x="1770.5734247967482" y="1406.5" />
+      <point x="1770.5734247967482" y="1376.5" />
+      <point x="1666.5796070460708" y="1376.5" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Drone" target="uk.ac.ed.inf.JDBCDao" relationship="DEPENDENCY">
+      <point x="112.66666666666663" y="-182.0" />
+      <point x="388.83333333333337" y="2075.5" />
+      <point x="1651.742910187468" y="2075.5" />
+      <point x="1651.742910187468" y="2055.5" />
+      <point x="1685.50942441511" y="2055.5" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.ThreeWordCoordinate.Square" target="uk.ac.ed.inf.ThreeWordCoordinate.Square.Southwest" relationship="TO_ONE">
+      <point x="-60.66666666666674" y="-49.0" />
+      <point x="1790.412940379404" y="1204.5" />
+      <point x="1815.7462737127373" y="1204.5" />
+      <point x="1815.7462737127373" y="1184.5" />
+      <point x="1673.7462737127373" y="1184.5" />
+      <point x="-49.0" y="60.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Map" target="uk.ac.ed.inf.JsonParser" relationship="DEPENDENCY">
+      <point x="59.75" y="-126.5" />
+      <point x="191.41666666666674" y="1176.5000000000002" />
+      <point x="1033.706470189702" y="1176.5000000000002" />
+      <point x="0.0" y="116.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Order" target="uk.ac.ed.inf.Menus" relationship="TO_ONE">
+      <point x="-109.25" y="-193.0" />
+      <point x="944.956470189702" y="1736.0" />
+      <point x="1027.7751524390246" y="1736.0" />
+      <point x="1027.7751524390246" y="1726.0" />
+      <point x="1075.9626524390246" y="1726.0" />
+      <point x="-47.625" y="116.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Menus" target="uk.ac.ed.inf.Restaurant.Food" relationship="DEPENDENCY">
+      <point x="95.25" y="-116.0" />
+      <point x="1218.8376524390246" y="1300.0" />
+      <point x="1562.87745596206" y="1300.0" />
+      <point x="1562.87745596206" y="1483.5" />
+      <point x="1581.0796070460708" y="1483.5" />
+      <point x="1581.0796070460708" y="1406.5" />
+      <point x="1408.2566903794043" y="1406.5" />
+      <point x="1408.2566903794043" y="566.5000000000002" />
+      <point x="1361.7566903794043" y="566.5000000000002" />
+      <point x="39.0" y="49.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.ThreeWordCoordinate.Square" target="uk.ac.ed.inf.ThreeWordCoordinate.Square.Northwest" relationship="DEPENDENCY">
+      <point x="0.0" y="-49.0" />
+      <point x="1851.0796070460708" y="1204.5" />
+      <point x="1825.7462737127373" y="1204.5" />
+      <point x="1825.7462737127373" y="1174.5" />
+      <point x="1889.7462737127373" y="1174.5" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="uk.ac.ed.inf.JsonParser" target="uk.ac.ed.inf.HttpConnection" relationship="TO_ONE">
+      <point x="-99.0" y="-116.0" />
+      <point x="934.706470189702" y="890.5000000000002" />
+      <point x="1028.706470189702" y="890.5000000000002" />
+      <point x="1028.706470189702" y="850.5000000000002" />
+      <point x="1018.706470189702" y="850.5000000000002" />
+      <point x="31.25" y="83.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Order" target="uk.ac.ed.inf.LongLat" relationship="TO_ONE">
+      <point x="-109.25" y="-193.0" />
+      <point x="944.956470189702" y="1736.0" />
+      <point x="1027.7751524390246" y="1736.0" />
+      <point x="1027.7751524390246" y="1716.0" />
+      <point x="381.39397018970203" y="1716.0" />
+      <point x="381.39397018970203" y="1706.0" />
+      <point x="410.29166666666674" y="1706.0" />
+      <point x="49.625" y="171.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Order" target="uk.ac.ed.inf.LongLat" relationship="TO_MANY">
+      <point x="-109.25" y="-193.0" />
+      <point x="944.956470189702" y="1736.0" />
+      <point x="1027.7751524390246" y="1736.0" />
+      <point x="1027.7751524390246" y="1716.0" />
+      <point x="381.39397018970203" y="1716.0" />
+      <point x="381.39397018970203" y="1706.0" />
+      <point x="410.29166666666674" y="1706.0" />
+      <point x="49.625" y="171.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.Drone" target="uk.ac.ed.inf.Order" relationship="DEPENDENCY">
+      <point x="112.66666666666663" y="-182.0" />
+      <point x="388.83333333333337" y="2075.5" />
+      <point x="1651.742910187468" y="2075.5" />
+      <point x="1651.742910187468" y="2055.5" />
+      <point x="1879.00942441511" y="2055.5" />
+      <point x="1879.00942441511" y="2206.0" />
+      <point x="1492.706470189702" y="2206.0" />
+      <point x="1492.706470189702" y="2176.0" />
+      <point x="1218.081470189702" y="2176.0" />
+      <point x="163.875" y="193.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.LongLat" target="uk.ac.ed.inf.LongLat" relationship="CREATE">
+      <point x="-148.875" y="171.0" />
+      <point x="211.79166666666674" y="1684.0" />
+      <point x="142.16666666666674" y="1684.0" />
+      <point x="142.16666666666674" y="1493.0" />
+      <point x="-198.5" y="-0.0" />
+    </edge>
+    <edge source="uk.ac.ed.inf.App" target="uk.ac.ed.inf.LongLat" relationship="CREATE">
+      <point x="-134.5" y="-60.5" />
+      <point x="910.018970189702" y="2480.786059807319" />
+      <point x="389.841886856369" y="2480.786059807319" />
+      <point x="389.841886856369" y="2470.786059807319" />
+      <point x="76.66666666666674" y="2470.786059807319" />
+      <point x="76.66666666666674" y="1736.0" />
+      <point x="218.0649559620599" y="1736.0" />
+      <point x="218.0649559620599" y="1726.0" />
+      <point x="311.04166666666674" y="1726.0" />
+      <point x="-49.625" y="171.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.3425235816852592" showDependencies="true" x="1222.3851274598228" y="1301.3089688407763" />
+  <SelectedNodes>
+    <node>uk.ac.ed.inf.ThreeWordCoordinate.Coordinate</node>
+    <node>uk.ac.ed.inf.ThreeWordCoordinate.Square</node>
+    <node>uk.ac.ed.inf.ThreeWordCoordinate</node>
+    <node>uk.ac.ed.inf.ThreeWordCoordinate.Square.Southwest</node>
+    <node>uk.ac.ed.inf.ThreeWordCoordinate.Square.Northwest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
